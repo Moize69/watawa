@@ -41,7 +41,7 @@ export default function Home() {
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-savannah-sage font-bold tracking-[0.2em] uppercase mb-4 flex items-center justify-center gap-2" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.6)' }}>
             <Leaf className="w-4 h-4" /> {hero.subtitle}
           </motion.p>
-          <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }} className="text-5xl md:text-7xl lg:text-8xl text-savannah-light mb-6 leading-tight" style={{ textShadow: '0 4px 16px rgba(0,0,0,0.8)' }}>
+          <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }} className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-savannah-light mb-6 leading-tight" style={{ textShadow: '0 4px 16px rgba(0,0,0,0.8)' }}>
             {hero.titleLine1} <br /><span className="italic text-savannah-sun">{hero.titleLine2}</span>
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.4 }} className="text-savannah-light/90 text-lg md:text-xl mb-10 max-w-2xl mx-auto font-medium" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8)' }}>
@@ -56,7 +56,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section id="why-choose-us" className="py-24 bg-savannah-dark text-savannah-sand">
+      <section id="why-choose-us" className="py-16 md:py-24 bg-savannah-dark text-savannah-sand">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <div className="absolute -inset-4 border-2 border-savannah-sage/30 rounded-2xl transform -rotate-3" />
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
           <div>
             <p className="text-savannah-sage font-medium tracking-[0.2em] uppercase mb-4">{whyChooseUs.subtitle}</p>
-            <h2 className="text-4xl md:text-5xl mb-8 leading-tight">{whyChooseUs.title} <span className="italic text-savannah-sun">{whyChooseUs.titleHighlight}</span> memories in the wild.</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl mb-8 leading-tight">{whyChooseUs.title} <span className="italic text-savannah-sun">{whyChooseUs.titleHighlight}</span> memories in the wild.</h2>
             <p className="text-savannah-sand/70 text-lg mb-10 font-light leading-relaxed">{whyChooseUs.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="flex gap-4">
@@ -85,12 +85,12 @@ export default function Home() {
       </section>
 
       {/* Handcrafted Journeys */}
-      <section className="py-24 bg-[#F5F2ED] text-savannah-dark overflow-hidden">
+      <section className="py-16 md:py-24 bg-[#F5F2ED] text-savannah-dark overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div className="max-w-2xl">
               <span className="text-savannah-leaf font-semibold tracking-[0.2em] uppercase text-sm flex items-center gap-2 mb-4"><span className="w-8 h-px bg-savannah-leaf" /> {handcraftedJourneys.subtitle}</span>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif mb-6 text-[#1A2421]">{handcraftedJourneys.title}</h2>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-6 text-[#1A2421]">{handcraftedJourneys.title}</h2>
               <p className="text-savannah-earth text-lg leading-relaxed">{handcraftedJourneys.description}</p>
             </div>
             <div className="flex flex-col items-end gap-6 shrink-0">
@@ -131,13 +131,13 @@ export default function Home() {
       </section>
 
       {/* Extraordinarily Unique */}
-      <section className="py-24 bg-[#1A2421] text-[#F0EAD6] relative overflow-hidden">
+      <section className="py-16 md:py-24 bg-[#1A2421] text-[#F0EAD6] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '40px 40px' }} />
         <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <div className="flex flex-col lg:flex-row items-center gap-16 mb-24">
+          <div className="flex flex-col lg:flex-row items-center gap-16 mb-16 md:mb-24">
             <div className="w-full lg:w-1/2 text-left order-1">
               <div className="flex items-center gap-4 mb-6"><span className="w-12 h-px bg-[#D4A373]" /><span className="text-[#D4A373] tracking-[0.2em] uppercase text-sm font-semibold">{extraordinarilyUnique.subtitle}</span></div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-8 text-white leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-8 text-white leading-tight">
                 {extraordinarilyUnique.titleLine1} <br />
                 <span className="text-[#D4A373] italic font-light">{extraordinarilyUnique.titleLine2}</span>
               </h2>

@@ -12,11 +12,11 @@ export default function Destinations() {
   const openTour = (tour: Tour) => { setSelectedTour(tour); setActiveTab(TABS[0]); };
 
   return (
-    <div className="pt-32 pb-24 px-6 max-w-7xl mx-auto w-full flex-1">
+    <div className="pt-24 md:pt-32 pb-16 md:pb-24 px-6 max-w-7xl mx-auto w-full flex-1">
       <div className="text-center mb-16">
         <p className="text-savannah-sage font-medium tracking-[0.2em] uppercase mb-2">Our Packages</p>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-savannah-dark font-serif">Breathtaking <span className="italic text-savannah-leaf">Destinations</span></h1>
-        <p className="mt-6 text-savannah-earth max-w-2xl mx-auto text-lg">Explore our carefully curated safari experiences across the most iconic landscapes in Africa.</p>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-savannah-dark font-serif">Breathtaking <span className="italic text-savannah-leaf">Destinations</span></h1>
+        <p className="mt-6 text-savannah-earth max-w-2xl mx-auto text-base sm:text-lg">Explore our carefully curated safari experiences across the most iconic landscapes in Africa.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

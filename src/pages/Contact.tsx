@@ -5,11 +5,11 @@ export default function Contact() {
   const { content: { contact } } = useCMS();
 
   return (
-    <div className="pt-32 pb-24 px-6 max-w-7xl mx-auto w-full flex-1">
+    <div className="pt-24 md:pt-32 pb-16 md:pb-24 px-6 max-w-7xl mx-auto w-full flex-1">
       <div className="text-center mb-16">
         <p className="text-savannah-sage font-medium tracking-[0.2em] uppercase mb-2">Get in Touch</p>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-savannah-dark font-serif">Contact <span className="italic text-savannah-leaf">Us</span></h1>
-        <p className="mt-6 text-savannah-earth max-w-2xl mx-auto text-lg">Ready to start planning your dream safari? Our experts are here to help craft the perfect itinerary for you.</p>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-savannah-dark font-serif">Contact <span className="italic text-savannah-leaf">Us</span></h1>
+        <p className="mt-6 text-savannah-earth max-w-2xl mx-auto text-base sm:text-lg">Ready to start planning your dream safari? Our experts are here to help craft the perfect itinerary for you.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
